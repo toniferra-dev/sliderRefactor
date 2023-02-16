@@ -1,3 +1,24 @@
+/* **************************************************************** */
+/* BASIC */
+/* **************************************************************** */
+/* Tipografía */
+@font-face {
+    font-family: 'montserratthin_italic';
+    src: url('./font/montserrat-thinitalic.woff2') format('woff2'),
+         url('./font/montserrat-thinitalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('./font/montserrat-semibold.woff2') format('woff2'),
+         url('./font/montserrat-semibold.woff') format('woff');
+}
+
+
+
+/* **************************************************************** */
+/* SLIDER */
+/* **************************************************************** */
 .container{
   position: relative;
   display: grid;
@@ -45,20 +66,16 @@ img {
     animation: content-s 5s infinite;
 }
 .contentTexto__titulo {
-    font-family: Intro;
+    font-family: 'montserratsemibold';
     font-size: 24px;
     color: #fff;
-    text-align: left;
     transform: translateX(30px);
     padding-bottom: 10px;
 }
 .contentTexto__parrafo {
-    font-family: Quicksand;
-    font-weight: normal;
+    font-family: 'montserratthin_italic';
     font-size: 14px;
-    font-style: italic;
     color: #fff;
-    text-align: left;
     transform: translateX(30px);
 }
 
