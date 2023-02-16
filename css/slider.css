@@ -4,14 +4,14 @@
 /* Tipografía */
 @font-face {
     font-family: 'montserratthin_italic';
-    src: url('./font/montserrat-thinitalic.woff2') format('woff2'),
-         url('./font/montserrat-thinitalic.woff') format('woff');
+    src: url('../font/montserrat-thinitalic.woff2') format('woff2'),
+         url('../font/montserrat-thinitalic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'montserratsemibold';
-    src: url('./font/montserrat-semibold.woff2') format('woff2'),
-         url('./font/montserrat-semibold.woff') format('woff');
+    src: url('../font/montserrat-semibold.woff2') format('woff2'),
+         url('../font/montserrat-semibold.woff') format('woff');
 }
 
 
